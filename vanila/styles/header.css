@@ -1,0 +1,14 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 69px 0 67px;
+}
+
+.navigation-items {
+  display: flex;
+  gap: 43px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
