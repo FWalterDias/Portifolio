@@ -17,6 +17,11 @@ header {
   color: #FFFFFF;
 }
 
-a:hover{
+li{
+  list-style: none;
+}
+
+li:hover, a:hover{
   text-decoration: underline;
+  cursor: pointer;
 }

@@ -61,6 +61,7 @@
   width: 100%;
   text-align: center;
   padding: 10px;
+  animation: tecnologiasIniciais 1.8S infinite ease-in-out; 
 }
 
 .main-tecnologias {
@@ -102,6 +103,11 @@
   width: 100%;
   margin-top: 150px;
   gap: 140px;
+}
+
+.main-sobre img{
+  box-shadow: #272424 10px 10px 5px 5px;
+  border-radius: 3px;
 }
 
 .main-sobre-info {
@@ -157,5 +163,11 @@
 @keyframes tecnologias {
   to{
     transform: translateY(-15px);
+  }
+}
+
+@keyframes tecnologiasIniciais{
+  50%{
+    transform: translateY(-10%);
   }
 }
