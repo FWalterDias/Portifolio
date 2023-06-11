@@ -1,11 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-logo">
+          <img src="./Assets/logo-light.svg" alt="logo dark" />
+        </div>
+
+        <nav class="navigation-items">
+          <a class="active" href="">HOME</a>
+          <a href="">PORTIFOLIO</a>
+          <a href="">CONTATO</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="main-apresentacao">
+          <div class="main-apresentacao-card">
+            <div class="main-apresentacao-card-text">
+              <h5>
+                Olá, me chamo Alex Spencer e eu amo construir websites lindos
+              </h5>
+            </div>
+            <div class="main-apresentacao-card-button">
+              <div class="main-apresentacao-card-button-img pointer"> 
+                <img src="../../assets/icons/down-arrows.svg" alt="" width="48px" height="48px">
+              </div>
+              <button class="pointer">Sobre Mim</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-sobre">
+          <img
+            src="../../assets/home/image-homepage-profile.jpg"
+            alt="profile image"
+            width="540px"
+            height="600px"
+          />
+
+          <article class="main-sobre-info">
+            <h2>Sobre mim</h2>
+            <p>
+              Sou um desenvolvedor front-end júnior procurando por uma
+              oportunidade. Eu foco em escrever HTML acessível, usando práticas
+              modernas de CSS e escrevendo um JavaScript limpo. Quando estou
+              escrevendo código JavaScript, na maioria das vezes estou usando
+              React, mas posso me adapta para qualquer ferramenta se necessário.
+              Moro em Londres, UK, mas também seria feliz trabalhando
+              remotamente e tenho experiência em times remotos. Quando não estou
+              codando, poderá me achar fora de casa. Eu adoro estar próximo a
+              natureza seja para uma caminhada, corrida ou ciclismo. Eu amaria
+              se você desse uma olhada no meu trabalho.
+            </p>
+            <button class="button pointer">IR PARA PORTIFOLIO</button>
+          </article>
+        </section>
+
+        <section class="main-contato">
+          <div class="main-contato-info">
+            <h5>Interessado em fazer projetos comigo?</h5>
+          </div>
+          <div class="main-contato-button">
+            <button class="button pointer">CONTATO</button>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <section class="footer-info">
+          <div class="footer-logo">
+            <img src="./assets/logo-light.svg" alt="" />
+          </div>
+          <div class="footer-items">
+            <a href="">HOME</a>
+            <a href="">PORTIFOLIO</a>
+            <a href="">CONTATO</a>
+          </div>
+        </section>
+        
+        <section class="footer-social-medias">
+          <a href=""
+            ><img src="./assets/icons/github-light.svg" alt="logo github"
+          /></a>
+          <a href=""
+            ><img
+              src="./assets/icons/linkedin-light.svg"
+              alt="logo linkedin"
+          /></a>
+          <a href=""
+            ><img src="./assets/icons/twitter-light.svg" alt="logo twitter"
+          /></a>
+        </section>
+      </footer>
+    </div>
+  </body>
 </html>

@@ -1,8 +1,11 @@
 header {
   display: flex;
   justify-content: space-between;
+
   width: 100%;
   margin: 69px 0 67px;
+  padding: 0 10px;
+  border-bottom: solid #FAFAFA 1px;
 }
 
 .navigation-items {
@@ -11,4 +14,9 @@ header {
   font-size: 12px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+a:hover{
+  text-decoration: underline;
 }
