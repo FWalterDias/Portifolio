@@ -1,33 +1,30 @@
 .main-apresentacao {
   display: flex;
-  align-items: flex-end;
-  height: 600px;
+  align-items: center;
+
   width: 100%;
-  background: url(./assets/home/image-homepage-hero.jpg) no-repeat center /
-    cover;
+  margin: 100px 0;
 }
 
 .main-apresentacao-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 445px;
-  height: 357px;
-  background-color: #fafafa;
+  border-right: solid #ffffff50 1px;
 }
 
 .main-apresentacao-card-text {
-  width: 390px;
-  font-size: 50px;
+  padding: 56px 90px 60px 34px;
+
+  color: #ffffff;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
   font-weight: 700;
-  color: #33323d;
-  margin: 56px 28px 0px;
-  padding: 15px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .main-apresentacao-card-button {
   display: flex;
   width: 200px;
+  margin-left: 34px;
 }
 
 .main-apresentacao-card-button-img {
@@ -52,16 +49,56 @@
 }
 
 .main-apresentacao-card-button:hover button {
-  background-color: #5fb4a2;
+  background-color: #ffffff;
+  color: #203a4c;
 }
 
 .main-apresentacao-card-button:hover img {
-  background-color: #56a292;
+  background-color: #ffffff;
+}
+
+.main-apresentacao-tecnologias-img {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.main-tecnologias {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-tecnologias h2{
+  margin-bottom: 20px;
+
+  color: #ffffff;
+  font-family: "Ibarra Real Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.main-tecnologias-lita{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+
+  margin-top: 20px;
+}
+
+.main-tecnologias-lita li{
+  cursor: pointer;
+}
+
+.main-tecnologias-lita li:hover{
+  animation: tecnologias .5S forwards ease-in-out;
 }
 
 .main-sobre {
   display: flex;
-  height: 600px;
   width: 100%;
   margin-top: 150px;
   gap: 140px;
@@ -70,25 +107,31 @@
 .main-sobre-info {
   display: flex;
   flex-direction: column;
-  border-top: solid #33323d26 1px;
-  border-bottom: solid #33323d26 1px;
-  width: 430px;
+
   height: 100%;
+  border-top: solid #ffffff50 1px;
+  border-bottom: solid #ffffff50 1px;
 }
 
 .main-sobre-info h2 {
   padding: 51px 0 28px;
   font-size: 40px;
-  color: #33323d;
+  color: #ffffff;
 }
 
 .main-sobre-info p {
   width: 430px;
-  height: 360px;
-  margin-bottom: 24px;
-  line-height: 30px;
-  color: #33323d;
+  margin-bottom: 30px;
+
+  text-align: justify;
+  color: #ffffff;
   opacity: 0.8;
+
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 
 .main-contato {
@@ -103,9 +146,16 @@
   width: 367px;
   font-weight: 700;
   font-size: 40px;
-  color: #33323d;
+  color: #ffffff;
 }
 
 .main-contato-button {
   height: 48px;
+}
+
+
+@keyframes tecnologias {
+  to{
+    transform: translateY(-15px);
+  }
 }
