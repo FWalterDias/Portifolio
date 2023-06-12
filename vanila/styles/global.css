@@ -8,10 +8,16 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    
     font-family: 'Public Sans', sans-serif; 
     font-weight: 400;
     background-color: #393434;
     color: #FFFFFF;
+    text-align: center;
 }
 
 a, ul {
