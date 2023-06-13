@@ -3,7 +3,14 @@
 # Portifolio
 Este projeto se trata da primeira versão Oficial de meu portifólio. Para a construção dele, primeiro desenvolvi o seu Design no Figma, e so então após decidir as cores e os elementos que iriam entrar no projeto (por hora), foi que parti para o seu desenvolvimento utizando as tecnologias vanilas do Frontend (HTML, CSS, e JavaScript). Por se tratar de uma primeira versão (ainda inacabada), não está responsivo, mas muito em breve estará com essa featuring.
 
-###Tecnologias utilizadas 
+### Tecnologias Utilizadas
+<a href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/html5-colored.svg" width="36" height="36" alt="HTML5" /> </a>
+<a href="https://www.w3.org/TR/CSS/#css" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/css3-colored.svg" width="36" height="36" alt="CSS3" /></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+            <img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg" width="36" height="36" alt="JavaScript" /></a>
+
 
 ### Home
 ----
